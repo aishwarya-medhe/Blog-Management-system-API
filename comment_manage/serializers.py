@@ -4,5 +4,5 @@ from .models import Comment
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model=Comment
-        fields=['id','content','publication_date','author','post']
+        fields=['id','comment_content','publication_date','author','post']
         
